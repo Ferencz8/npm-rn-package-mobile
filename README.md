@@ -16,8 +16,14 @@ Note:
 For every change in the npm package make sure to update the version in package.json and rerun the commands above!
 
 Usefull commands
-npx expo run:android -> to create an apk file with path \demo-app\android\app\build\outputs\apk\debug\app-debug.apk
-./gradlew.bat assembleRelease -> to create release apk
+To create an apk file with path \demo-app\android\app\build\outputs\apk\debug\app-debug.apk
+```bash
+npx expo run:android
+```
+To create release apk
+```bash
+./gradlew.bat assembleRelease
+```
 ## Structure
 common - package
 demo-app - react native app

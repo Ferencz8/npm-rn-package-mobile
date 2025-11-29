@@ -12,10 +12,10 @@ Move to the demo-app path and in there run
    ```bash
     npm install ../common/common-0.1.5.tgz 
    ```
-###Note
+### Note
 For every change in the npm package make sure to update the version in package.json and rerun the commands above!
 
-##Usefull commands
+## Usefull commands
 
 To create an apk file with path \demo-app\android\app\build\outputs\apk\debug\app-debug.apk
 ```bash
